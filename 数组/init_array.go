@@ -33,6 +33,6 @@ func main() {
 	//  将索引为 1 和 3 的元素初始化
 	balance3 := [5]float32{1: 2.0, 3: 7.0}
 	for k = 0; k < 5; k++ {
-		fmt.Printf("balance3[%d] = %f\n", k, balance3[k])
+		fmt.Printf(aaa"balance3[%d] = %f\n", k, balance3[k])
 	}
 }
